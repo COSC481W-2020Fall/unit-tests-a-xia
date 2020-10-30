@@ -59,9 +59,9 @@ Views:
 
 ## My tests
 * Create daily log & LogView
-    * One food: successful
-    * Multiple foods: successful
-    * Same-day meal uses existing DailyLog: successful
-    * Future date: unsuccessful
+    - [ ] One food: successful
+    - [ ] Multiple foods: successful
+    - [ ] Same-day meal uses existing DailyLog: successful
+    - [ ] Future date: unsuccessful
 * DailyLog, MealLog, MealFood
-    * get_total(): correct
+    - [ ] get_total(): correct
