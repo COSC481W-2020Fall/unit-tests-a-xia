@@ -32,8 +32,13 @@ Views:
     * AddDietPreferenceView
     * DeleteAllergyView
     * DeleteDietPreferenceView
-* LogView
-* DisplayLogView
+* Logs
+    * LogListView
+    * LogCreateView
+    * LogDetailView
+    * LogUpdateView
+    * DailyLogDeleteView
+    * MealLogDeleteView
 * DetailRecipe
     * ListRecipe
     * CreateRecipe
@@ -58,9 +63,18 @@ Views:
 * PasswordChangeView (default Django view)
 
 ## My tests
-* Create daily log & LogView
-    - [x] One food: successful
-    - [x] Multiple foods: successful
+### 10/26 - 11/2
+* LogUpdateView
+    - [x] Change log date: successful
+    - [x] Change log time: successful
+    - [x] Change food and portions: successful
+    - [x] Add foods: successful
+    - [x] Change to future date: unsuccessful
+
+### 10/19 - 10/26
+* LogCreateView
+    - [x] Create log with one food: successful
+    - [x] Create log with multiple foods: successful
     - [x] Same-day meal uses existing DailyLog: successful
     - [x] Future date: unsuccessful
 * DailyLog, MealLog, MealFood
